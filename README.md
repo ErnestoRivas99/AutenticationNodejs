@@ -1,13 +1,3 @@
 # Node Authentication Tutorial
-Web app con nodejs, y javascript como lenguaje de programación backend y mysql como base de datos SQL. En esta aplicación se plantea la creación de usuarios y el inicio de sesión con Authentication.
-Esta aplicación de NodeJS hace uso de CSS, Bootstrap4, y Handlebars para estilizar la webapp y librerías de express para conexión a mysql, en este ejemplo plantea la creación de un sitio 
-con una navegación dinamica. Consta de un formulario diseñado con Bootstrap y funcionalidad de NodeJS con express, la estructura del proyecto separa las rutas de los partials(trozos de código que se pueden usar en cualquier parte del proyecto) y el funcionamiento.
-# Navegación 
-Al entrar en la página se puede crear un usuario en Registrar y luego iniciar sesión, una vez iniciada sesión se puede ver el perfil y salir de la misma en Logut, una vez concluida una sesión no se puede ver el perfil ni el logout y te lleva a la home.
-En el formulario de registrar se valida cada campo, que el email sea válido, la contraseña debe constar de una mayúscula, una minúscula, un número y un carácter especial.
 
-# Express 
-Express es un framework de NodeJS que nos ayuda simplificar la programación del lado del servidor con muchas menos líneas de código.
-
-# Herramientas necesarias
-Visual Studio Code, Node JS, Express, Zeit Now, Remote MYSQL
+En este repositorio se alojaron diferentes tipos de archivos que crean una aplicacion web que realiza registros y una vez registrados se inicia sesion y puedes ver tu perfil, tambien puedes cerrar session y abrir session cuando lo desees ya que los datos de tu registro se quedan guardados en una base de datos MySQL del servicio de remoteMysql. Para esto se requirio Node, Express y Passport.js; passport es el middleware de autenticación para Node.js . Extremadamente flexible y modular, Passport se puede colocar discretamente en cualquier aplicación web basada en Express . Ahora utilizamos el motor de plantillas Handlebers se basa en el lenguaje de plantillas Mustache, pero lo mejora de distintas maneras. Con Handlebars, podrás separar el diseño HTML del resto de tu Javascript, para así escribir código mucho más limpio.
